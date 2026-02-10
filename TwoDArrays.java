@@ -29,6 +29,20 @@ public class TwoDArrays {
         }
         return largest;
     }
+
+    public static int Smallest(int matrix[][], int n , int m){
+        int smallest = Integer.MAX_VALUE;
+        int element;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                element = matrix[i][j];
+                if(element<smallest){
+                    smallest = element;
+                }
+            }
+        }
+        return smallest;
+    }
     public static void main(String[] args) {
         int matrix[][] = new int[3][4];
         int n = matrix.length;
@@ -50,7 +64,6 @@ public class TwoDArrays {
             }
             System.out.println();
         }
-        //  System.out.println(Search(matrix, key, n, m));
-        System.out.println(Largest(matrix, n, m));
+        System.out.println(Smallest(matrix, n, m));
     }
 }

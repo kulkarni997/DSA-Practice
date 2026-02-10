@@ -15,6 +15,20 @@ public class TwoDArrays {
         return false;
         
     }
+
+    public static int Largest(int matrix[][], int n, int m){
+        int largest = Integer.MIN_VALUE;
+        int element;
+        for(int i=0; i<n; i++){
+            for(int j=0; j<m; j++){
+                element = matrix[i][j];
+                if(element>largest){
+                    largest = element;
+                }
+            }
+        }
+        return largest;
+    }
     public static void main(String[] args) {
         int matrix[][] = new int[3][4];
         int n = matrix.length;
@@ -22,6 +36,7 @@ public class TwoDArrays {
         int key = 11;
 
        //input
+       System.out.println("Enter the input array : ");
         Scanner sc = new Scanner(System.in);
         for(int i=0; i<n; i++){
             for(int j=0; j<m; j++){
@@ -35,6 +50,7 @@ public class TwoDArrays {
             }
             System.out.println();
         }
-         System.out.println(Search(matrix, key, n, m));
+        //  System.out.println(Search(matrix, key, n, m));
+        System.out.println(Largest(matrix, n, m));
     }
 }

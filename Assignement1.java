@@ -1,5 +1,6 @@
 public class Assignement1 {
 
+    //O(n^2)
     public static boolean Repeat(int numbers[]){
         boolean repeat = false;
         for(int i = 0; i<numbers.length; i++){

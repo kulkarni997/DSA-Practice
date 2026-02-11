@@ -43,7 +43,7 @@ public class TwoDArrays {
         }
         return smallest;
     }
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int matrix[][] = new int[3][4];
         int n = matrix.length;
         int m = matrix[0].length;

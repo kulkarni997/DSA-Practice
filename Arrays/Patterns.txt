@@ -1,0 +1,20 @@
+Arrays Patterns ~
+
+1. Brute Force Enumeration
+
+2. Two Pointers 
+    i. Same Direction
+    ii. Different Direction
+    iii. Partition type
+
+3. Sliding Window
+
+4. Prefix Sum
+
+5. Kadane's Algorithm
+
+6. Hashing/Frequency Arrays
+
+7. Binary Search on Arrays
+
+8. Sorting based Array

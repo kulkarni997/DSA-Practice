@@ -75,11 +75,11 @@ public class Practice {
 
     public static void main(String[] args) {
         String s;
-        // ReverseString("Srushti");
-        // ReverseString("Hellowww");
-        // System.out.println(Palindrome("hello"));
-        // System.out.println(CountVowels("wowie"));
-        // System.out.println(CountConsonants("Srushti"));
+        ReverseString("Srushti");
+        ReverseString("Hellowww");
+        System.out.println(Palindrome("hello"));
+        System.out.println(CountVowels("wowie"));
+        System.out.println(CountConsonants("Srushti"));
         System.out.println(countDigits("srushti28"));
     }
 }
